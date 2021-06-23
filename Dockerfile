@@ -1,5 +1,5 @@
 FROM centos:latest
-MAINTAINER Anuragbharti-oss
+MAINTAINER anuragbharti20178@gmail.com
 RUN yum install -y httpd \ zip \ unzip
 ADD http://www.free-css.com/assets/files/free-css-templates/download/page247/kindle.zip /var/www/html
 WORKDIR /var/www/html
